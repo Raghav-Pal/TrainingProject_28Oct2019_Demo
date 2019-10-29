@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 1" time="1.378" tests="1" failures="0" errors="0">
+   <testsuite name="Test Suite 1" tests="1" failures="0" errors="0" time="1.378" timestamp="2019-10-28 16:31:44" hostname="Administrator - EC2AMAZ-NDM7R0M" id="Test Suites/Day1/Test Suite 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Desktop\\Projects\\KatalonStudio\\2019\\TrainingProjet_28Oct2019_Demo\\Reports\\20191028_163140\\Day1\\Test Suite 1\\20191028_163141"/>
+         <property name="logFiles" value="E:\\Desktop\\Projects\\KatalonStudio\\2019\\TrainingProjet_28Oct2019_Demo\\Reports\\20191028_163140\\Day1\\Test Suite 1\\20191028_163141\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - EC2AMAZ-NDM7R0M"/>
+         <property name="hostAddress" value="172.20.128.1"/>
+         <property name="os" value="Windows Server 2016 64bit"/>
+         <property name="katalonVersion" value="7.0.4.1"/>
+      </properties>
+      <testcase name="Test Cases/Day1/Test1" time="0.308" classname="Test Cases/Day1/Test1" status="PASSED">
+         <system-out><![CDATA[2019-10-28 16:31:44 - [TEST_CASE][PASSED] - Test Cases/Day1/Test1: Test Cases/Day1/Test1
+
+2019-10-28 16:31:44 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-10-28 16:31:44 - [TEST_SUITE][PASSED] - Test Suite 1: Test Cases/Day1/Test1]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

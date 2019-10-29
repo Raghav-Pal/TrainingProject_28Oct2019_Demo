@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Test Suite 1" time="24.868" tests="2" failures="0" errors="0">
+   <testsuite name="Test Suite 1" tests="2" failures="0" errors="0" time="24.868" timestamp="2019-10-28 16:32:47" hostname="Administrator - EC2AMAZ-NDM7R0M" id="Test Suites/Day1/Test Suite 1">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="E:\\Desktop\\Projects\\KatalonStudio\\2019\\TrainingProjet_28Oct2019_Demo\\Reports\\20191028_163243\\Day1\\Test Suite 1\\20191028_163243"/>
+         <property name="logFiles" value="E:\\Desktop\\Projects\\KatalonStudio\\2019\\TrainingProjet_28Oct2019_Demo\\Reports\\20191028_163243\\Day1\\Test Suite 1\\20191028_163243\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Administrator - EC2AMAZ-NDM7R0M"/>
+         <property name="os" value="Windows Server 2016 64bit"/>
+         <property name="katalonVersion" value="7.0.4.1"/>
+         <property name="browser" value="Chrome 78.0.3904.70"/>
+         <property name="hostAddress" value="172.20.128.1"/>
+         <property name="sessionId" value="a3cb44543cccd73e117d61db4229e8a6"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation{proxyOption=NO_PROXY, proxyServerType=HTTP, password=, proxyServerAddress=, proxyServerPort=0}"/>
+         <property name="platform" value="Windows Server 2016"/>
+      </properties>
+      <testcase name="Test Cases/Day1/Test1" time="0.465" classname="Test Cases/Day1/Test1" status="PASSED">
+         <system-out><![CDATA[2019-10-28 16:32:47 - [TEST_CASE][PASSED] - Test Cases/Day1/Test1: Test Cases/Day1/Test1
+
+2019-10-28 16:32:48 - [TEST_STEP][PASSED] - return null: null]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Day1/Test_Record" time="23.419" classname="Test Cases/Day1/Test_Record" status="PASSED">
+         <system-out><![CDATA[2019-10-28 16:32:48 - [TEST_CASE][PASSED] - Test Cases/Day1/Test_Record: Test Cases/Day1/Test_Record
+
+2019-10-28 16:32:48 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2019-10-28 16:32:48 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2019-10-28 16:32:48 - [MESSAGE][INFO] - Action delay is set to 0 seconds
+
+2019-10-28 16:32:51 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2019-10-28 16:32:51 - [TEST_STEP][PASSED] - navigateToUrl("https://katalon-demo-cura.herokuapp.com/"): Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2019-10-28 16:32:57 - [MESSAGE][PASSED] - Navigate to 'https://katalon-demo-cura.herokuapp.com/' successfully
+
+2019-10-28 16:32:57 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Make Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2019-10-28 16:32:59 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Make Appointment' is clicked on
+
+2019-10-28 16:32:59 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Username_username"), "John Doe"): Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2019-10-28 16:33:01 - [MESSAGE][PASSED] - Text 'John Doe' is set on object 'Object Repository/Page_CURA Healthcare Service/input_Username_username'
+
+2019-10-28 16:33:01 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Password_password"), "g3/DOGG74jC3Flrr3yH+3D/yKbOqqUNM"): Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2019-10-28 16:33:03 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_CURA Healthcare Service/input_Password_password'
+
+2019-10-28 16:33:03 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Login")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2019-10-28 16:33:04 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Login' is clicked on
+
+2019-10-28 16:33:04 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107"), "Hongkong CURA Healthcare Center", true): All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2019-10-28 16:33:07 - [MESSAGE][PASSED] - All options with value 'Hongkong CURA Healthcare Center' are selected in object 'Object Repository/Page_CURA Healthcare Service/select_Tokyo CURA Healthcare Center        _5b4107'  using regular expression
+
+2019-10-28 16:33:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+2019-10-28 16:33:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Apply for hospital readmission_hospit_63901f' is clicked on
+
+2019-10-28 16:33:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs")): Object: 'Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2019-10-28 16:33:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/input_Medicaid_programs' is clicked on
+
+2019-10-28 16:33:07 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34")): Object: 'Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+
+2019-10-28 16:33:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/span_Visit Date (Required)_glyphicon glyphi_cada34' is clicked on
+
+2019-10-28 16:33:08 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/td_29")): Object: 'Object Repository/Page_CURA Healthcare Service/td_29' is clicked on
+
+2019-10-28 16:33:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/td_29' is clicked on
+
+2019-10-28 16:33:08 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment"), "abcd"): Text 'abcd' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2019-10-28 16:33:09 - [MESSAGE][PASSED] - Text 'abcd' is set on object 'Object Repository/Page_CURA Healthcare Service/textarea_Comment_comment'
+
+2019-10-28 16:33:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/button_Book Appointment")): Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2019-10-28 16:33:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/button_Book Appointment' is clicked on
+
+2019-10-28 16:33:09 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_CURA Healthcare Service/a_Go to Homepage")): Object: 'Object Repository/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+2019-10-28 16:33:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_CURA Healthcare Service/a_Go to Homepage' is clicked on
+
+2019-10-28 16:33:10 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2019-10-28 16:33:11 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2019-10-28 16:32:47 - [TEST_SUITE][PASSED] - Test Suite 1: Test Cases/Day1/Test_Record]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
